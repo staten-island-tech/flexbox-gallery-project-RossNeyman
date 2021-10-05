@@ -9,17 +9,29 @@ header{
     text-align: center;
     font-size: 5rem;
 }
+h2{
+    font-size: 2rem;
+}
 .parent{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2rem;
+    object-fit: contain;
 }
 .standard-post{
+    background-color: rgb(211, 252, 255);
     font-family: 'Fira Sans', sans-serif;
-    padding: 3rem;
+    margin: 2rem;
+    padding: 5rem;
     width: 40rem;
     border: .3rem solid black;
-    object-fit: contain; 
+}
+
+.torx{
+    text-align: center;
+    object-fit: fill;
+    height: 75%;
+    width: 75%;
 }
