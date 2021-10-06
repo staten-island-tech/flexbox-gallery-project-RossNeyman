@@ -19,23 +19,42 @@ h2{
     flex-direction: row;
     gap: 2rem;
     object-fit: contain;
+    
+
 }
 .standard-post{
     background-color: rgb(211, 252, 255);
     font-family: 'Fira Sans', sans-serif;
-    margin: 2rem;
+    font-size: 1.15rem;
+    margin: 2rem 2rem;
+    padding-bottom: 2rem;
     padding: 5rem;
     width: 40rem;
     border: .3rem solid black;
+    box-shadow: 1rem .5rem .5rem red;   
 }
-
 .torx{
     text-align: center;
     object-fit: fill;
     height: 75%;
     width: 75%;
 }
+#torx{
+    text-align: center;
+    object-fit: fill;
+    height: 75%;
+    width: 75%;
+}
+#truss{
+    text-align: center;
+    object-fit: fill;
+    height: 70%;
+    width: 70%;
+}
 .standard-post:hover{
     background-color: rgb(134, 211, 246);
     transform: scale(1.1);
+}
+p{
+     padding-bottom: 5rem;
 }
