@@ -35,3 +35,7 @@ h2{
     height: 75%;
     width: 75%;
 }
+.standard-post:hover{
+    background-color: rgb(134, 211, 246);
+    transform: scale(1.1);
+}
