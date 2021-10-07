@@ -32,60 +32,13 @@ h2{
     box-shadow: 1rem .5rem .5rem rgb(90, 100, 105);   
 }
 
-#torx{
-    text-align: center;
-    object-fit: fill;
-    height: 75%;
-    width: 75%;
-}
-#truss{
+img{
     text-align: center;
     object-fit: fill;
     height: 70%;
     width: 70%;
 }
-#flange{
-    text-align: center;
-    object-fit: fill;
-    height: 70%;
-    width: 70%;
-}
-#bugle{
-    text-align: center;
-    object-fit: fill;
-    height: 70%;
-    width: 70%;
-}
-#dome{
-    text-align: center;
-    object-fit: fill;
-    height: 70%;
-    width: 70%;
-}
-#int-hex{
-    text-align: center;
-    object-fit: fill;
-    height: 70%;
-    width: 70%;
-}
-#ext-hex{
-    text-align: center;
-    object-fit: fill;
-    height: 70%;
-    width: 70%;
-}
-#two-hole{
-    text-align: center;
-    object-fit: fill;
-    height: 70%;
-    width: 70%;
-}
-#square{
-    text-align: center;
-    object-fit: fill;
-    height: 70%;
-    width: 70%;
-}
+
 .standard-post:hover{
     background-color: rgb(134, 211, 246);
     transform: scale(1.1);
