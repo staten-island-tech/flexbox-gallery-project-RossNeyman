@@ -4,26 +4,14 @@ html{
     padding: 0;    
     background-color: antiquewhite;
 }
-@keyframes slideInLeft {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(100%);
-    }
+@keyframes spin {
+  0%{
+    transform: rotate(-2160deg);
   }
-@keyframes slideInRight {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(0%);
-    }
-  }
+}
 
 header{
-    animation: 1s ease-out 0s 1 slideInLeft;
-    animation: 1s ease-out 0s 1 slideInRight;
+    animation: 2s ease-in-out 0s 1 spin;
     font-family: 'Ephesis', cursive;
     text-align: center;
     font-size: 5rem;
@@ -51,7 +39,30 @@ h2{
     box-shadow: 1rem .5rem .5rem rgb(90, 100, 105);  
     transition-timing-function: ease-in;
     transition: .3s cubic-bezier(1,.17,.72,.51);
-    
+}
+#truss{
+    background-color: rgb(211, 252, 255);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.15rem;
+    margin: 2rem 2rem;
+    padding: 5rem;
+    width: 40rem;
+    border: .3rem solid black;
+    box-shadow: 1rem .5rem .5rem rgb(90, 100, 105);  
+    transition-timing-function: ease-in;
+    transition: .3s cubic-bezier(1,.17,.72,.51);
+}
+#flange{
+    background-color: rgb(211, 252, 255);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.15rem;
+    margin: 2rem 2rem;
+    padding: 5rem;
+    width: 40rem;
+    border: .3rem solid black;
+    box-shadow: 1rem .5rem .5rem rgb(90, 100, 105);  
+    transition-timing-function: ease-in;
+    transition: .3s cubic-bezier(1,.17,.72,.51);
 }
 
 img{
@@ -63,11 +74,49 @@ img{
 
 .standard-post:hover{
     background-color: rgb(134, 211, 246);
+    transform: scaleX(1.5);
+}
+#truss:hover{
+    background-color: rgb(134, 211, 246);
     transform: scale(1.1);
+}
+#flange:hover{
+    background-color: rgb(134, 211, 246);
+    transform: rotate(360deg);
+}
+
+@media (max-width: 1920px){
+    .standard-post{
+        background-color: aquamarine;
+    }
+    #truss{
+        background-color: aquamarine;
+    }
+    #flange{
+        background-color: aquamarine;
+    }
+}
+
+@media (max-width: 1200px){
+    .standard-post{
+        background-color: rgb(17, 65, 49);
+    }
+    #truss{
+        background-color: rgb(17, 65, 49);
+    }
+    #flange{
+        background-color: rgb(17, 65, 49);
+    }
 }
 
 @media (max-width: 600px){
     .standard-post{
-        background-color: aquamarine;
+        background-color: rgb(8, 34, 25);
+    }
+    #truss{
+        background-color: rgb(8, 34, 25);
+    }
+    #flange{
+        background-color: rgb(8, 34, 25);
     }
 }
