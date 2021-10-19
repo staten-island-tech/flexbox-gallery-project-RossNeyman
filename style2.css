@@ -64,6 +64,30 @@ h2{
     transition-timing-function: ease-in;
     transition: .3s cubic-bezier(1,.17,.72,.51);
 }
+#bugle{
+    background-color: rgb(211, 252, 255);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.15rem;
+    margin: 2rem 2rem;
+    padding: 5rem;
+    width: 40rem;
+    border: .3rem solid black;
+    box-shadow: 1rem .5rem .5rem rgb(90, 100, 105);  
+    transition-timing-function: ease-in;
+    transition: 1s cubic-bezier(1,.17,.72,.51);
+}
+#dome{
+    background-color: rgb(211, 252, 255);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.15rem;
+    margin: 2rem 2rem;
+    padding: 5rem;
+    width: 40rem;
+    border: .3rem solid black;
+    box-shadow: 1rem .5rem .5rem rgb(90, 100, 105);  
+    transition-timing-function: ease-in;
+    transition: 1s cubic-bezier(1,.17,.72,.51);
+}
 
 img{
     text-align: center;
@@ -84,6 +108,14 @@ img{
     background-color: rgb(134, 211, 246);
     transform: rotate(360deg);
 }
+#bugle:hover{
+    background-color: rgb(134, 211, 246);
+    transform: rotateY(360deg);
+}
+#dome:hover{
+    background-color: rgb(134, 211, 246);
+    transform: rotateX(360deg);
+}
 
 @media (max-width: 1920px){
     .standard-post{
@@ -93,6 +125,12 @@ img{
         background-color: aquamarine;
     }
     #flange{
+        background-color: aquamarine;
+    }
+    #bugle{
+        background-color: aquamarine;
+    }
+    #dome{
         background-color: aquamarine;
     }
 }
@@ -107,6 +145,12 @@ img{
     #flange{
         background-color: rgb(17, 65, 49);
     }
+    #bugle{
+        background-color: rgb(17, 65, 49);
+    }
+    #dome{
+        background-color: rgb(17, 65, 49);
+    }
 }
 
 @media (max-width: 600px){
@@ -117,6 +161,12 @@ img{
         background-color: rgb(8, 34, 25);
     }
     #flange{
+        background-color: rgb(8, 34, 25);
+    }
+    #bugle{
+        background-color: rgb(8, 34, 25);
+    }
+    #dome{
         background-color: rgb(8, 34, 25);
     }
 }
